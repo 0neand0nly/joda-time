@@ -98,6 +98,9 @@ Bug fixes since 2.2
   Fix parseInto() where it obtains the default year for parsing from the ReadWritableInstant
   Previously, the wrong year could be obtained at the start or end of the year in non UTC zones
   Now obtains the year from the ReadWritableInstant using the chronology of the ReadWritableInstant
+<<<<<<< HEAD
+>>>>>>> parent of 91b1ba4e (Better thread-safety in ISODateTimeFormat)
+=======
 >>>>>>> parent of 91b1ba4e (Better thread-safety in ISODateTimeFormat)
 
 
